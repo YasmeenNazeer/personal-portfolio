@@ -1,0 +1,73 @@
+.about{
+    width: 100%;
+    padding: 160px 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-lightgray);
+}
+
+.leftDiv{
+    width: 40.70%;
+    
+}
+.leftDiv h1{
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 8px;
+}
+.leftDiv p{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: var(--logo-Color);
+}
+.leftDiv .aboutPara{
+    font-size: 17px;
+    line-height: 27px;
+    color: white;
+    margin-top: 1.4375rem;
+    margin-bottom: 2.0313rem;
+}
+
+.rightDiv{
+  margin-right: 190px;
+
+
+}
+@media(max-width:768px){
+    .about{
+        
+        padding: 3.75rem 2.5rem 10rem 2.5rem;
+       
+    }
+    .leftDiv{
+        width:45.182% ;
+    }
+    .rightDiv{
+        margin-right: 0px;
+      
+      
+      }
+      .img{
+        width: 250px;
+        
+      }
+}
+
+@media(max-width:390px){
+    .about{
+        flex-direction: column;
+        padding: 50px 29px;
+       
+    }
+    .leftDiv{
+        width:90%;
+    }
+    
+      .img{
+
+        width: 200px;
+        margin-top: 30px;
+        
+      }
+}

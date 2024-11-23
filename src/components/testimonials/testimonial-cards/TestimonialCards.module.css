@@ -1,0 +1,57 @@
+.card{
+   flex-shrink: 0;
+   flex-grow: 0;
+   width :calc((100% - 64px )/ 3);
+    padding: 35px 28.5008px 56px 28.5008px;
+    text-align: center;
+    background-color: var(--background-gray);
+    border-radius: 16px;
+    border-top: 3px solid var(--logo-Color);
+    margin-right: 32px;
+    
+  }
+
+  .cardImage{
+     width: 9.375rem;
+     height: 9.375rem;
+     border-radius: 50%;
+     border: .1875rem solid white;
+     overflow: hidden;
+     margin: auto;
+     margin-bottom: 1rem;
+
+
+  }
+
+  .card p{
+    font-size: .9375rem;
+    margin-bottom: 1rem;
+  }
+ 
+  .card .para{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+  .card span{
+    color: var(--logo-Color);
+  }
+
+  
+  @media(max-width:768px){
+      .card{
+        width :calc((100% - 32px )/ 2);
+        
+   
+      }
+  }
+
+  @media(max-width:390px){
+
+    .card{
+      
+      width :calc((100% - 32px )/ 1);
+      
+ 
+    }
+}

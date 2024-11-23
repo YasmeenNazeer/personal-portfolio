@@ -1,0 +1,24 @@
+.footer{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: var(--background-black);
+padding: 24px 410px;
+}
+.footer h1{
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--logo-Color);
+}
+@media (max-width:390px) {
+    .footer{
+        padding: 24px 85.58px;
+    }
+    .footer h1{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+}
+

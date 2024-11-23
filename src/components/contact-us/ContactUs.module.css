@@ -1,0 +1,155 @@
+.contact{
+      width: 100%;
+      background-color: var(--background-gray);
+      padding: 9.625rem 9.1875rem 10rem 9.1875rem;
+      text-align: center;
+}  
+
+.contact h1{
+   font-size: 3rem ;
+   line-height:  3rem;
+   margin-bottom: 1.125rem;
+
+
+}
+.contact span{
+      color: var(--logo-Color);
+}
+.contact p{
+      font-size: 1.0456rem;
+      line-height: 1.75rem;
+      margin-bottom: 6rem;
+}
+
+
+.bottommainDiv{
+margin: auto;
+width: 100%;
+display: flex;
+gap: 7.5494rem;
+
+
+
+}
+.leftDiv{
+      width: 300.36px;
+      display: flex;
+      gap: 3rem;
+      flex-direction: column;
+
+}
+
+.leftDivContainer{
+
+      display: flex;
+      gap: 1rem;
+}
+
+.leftTextDiv{
+      display: flex;
+      gap: 8px;
+      flex-direction: column;
+     text-align: start;      
+}
+
+.leftTextDiv :nth-child(1){
+      font-size: 14.88px;
+      color: #ffffff;
+      line-height: 24px;
+}
+
+.leftTextDiv :nth-child(2){
+      font-size: 15.25px;
+      color: #616161;
+      line-height: 24px;
+}
+
+
+.leftTextDiv :nth-child(3){
+      font-size: 15px;
+      color: #D28A8C;
+      line-height: 24px;
+}
+
+
+
+.rightDiv{
+    width: 650px;
+    
+}
+.rightDiv form{
+      width: 100%;
+      display: flex;
+      gap: 35px;
+      flex-direction: column;
+  
+}
+
+.topInputDiv{
+      width: 100%;
+      display: flex;
+      gap: 8px;
+
+}
+.topInputDiv input{
+      width: 320PX;
+   
+}
+.inputDetails{
+      padding: 15px 0px 15px 12px;
+      font-size: 15px;
+      background-color: #333333;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+}
+
+.inputButton{
+      width: 178px;
+      height: 52px;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: var(--button-Color);
+
+ &:hover{
+      background-color: var(--button-hover);
+ }
+}
+
+
+@media(max-width:768px){
+      .bottommainDiv{
+            
+            flex-direction: column;
+            
+      }
+      .contact{
+            
+            
+            padding: 160px 32px 160px 32px;
+            
+      }  
+      
+}
+
+
+@media(max-width:390px){
+      .bottommainDiv{
+            
+            flex-direction: column;
+            
+      }
+      .contact{
+             padding: 130px 16px 130px 16px;
+            }  
+            
+.rightDiv{
+     width: 100%;
+  }
+  .topInputDiv{
+
+      flex-direction: column;
+      gap: 25px;
+  }
+      
+}

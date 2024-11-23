@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --background-black:#0A0908;
+  --background-gray: #1A1A1A;
+  --background-lightgray: #222222;
+  --logo-Color:#D28A8C;
+  --button-Color:#ab6772;
+  --button-hover: #D28A8C;
+}
+
+html , body{
+  color: white;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}

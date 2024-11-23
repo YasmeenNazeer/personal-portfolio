@@ -1,0 +1,27 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardImage{
+    height: 407px;
+    background-color: var(--background-gray);
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.cadrText{
+    margin-top:24px ;
+    height: auto;
+    color: var(--logo-Color);
+}
+.img{
+       transition: all 0.6s ease-in-out ;
+}
+.img:hover{
+      
+      scale: 1.05;
+}
