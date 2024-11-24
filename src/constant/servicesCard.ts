@@ -3,7 +3,7 @@ export const servicesCard = [
     {
           src: '/branding.png',
           title: 'Branding',
-          discription: ' LBranding is the essence of who you are as a business and how you connect with your audience.I work with you to define your brands core values, mission, and vision. ',
+          discription: 'Branding is the essence of who you are as a business and how you connect with your audience.I work with you to define your brands core values, mission, and vision. ',
     },
 
     

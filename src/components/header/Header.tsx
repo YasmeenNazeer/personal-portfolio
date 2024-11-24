@@ -34,7 +34,7 @@ function Header() {
               <li><Link href={'#services'}>Services</Link></li>
               <li><Link href={'#testi'}>Testimonials</Link></li>
                 <li><Link href={'#contact'}>Contact</Link></li>
-              <li><Link href={'#contact'}>Contact</Link></li>
+              
           </motion.ul>
 
              ) 
